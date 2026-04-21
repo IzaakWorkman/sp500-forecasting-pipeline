@@ -205,3 +205,36 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =========================
+# Project-specific ignores
+# S&P 500 Forecasting Pipeline
+# =========================
+
+# Local data downloaded from yfinance
+data/raw/
+data/processed/
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Generated outputs
+outputs/
+reports/
+
+# Generated plots
+# Ignore all generated plots by default, but allow selected README/demo figures
+plots/*
+!plots/README_example.png
+!plots/model_comparison.png
+!plots/backtest_summary.png
+
+# OS/editor files
+.DS_Store
+.vscode/
+
+
