@@ -2,7 +2,7 @@
 
 # &#x20;
 
-# > Predicts next-day price direction (up/down) for S\&P 500 stocks using LSTM and XGBoost on 5 years of historical data. Achieved \*\*61% directional accuracy\*\* vs. 54% naive baseline, with a simulated Sharpe ratio of \*\*1.2\*\* on a held-out 2023 test period.
+# > Predicts next-day price direction (up/down) for S\&P 500 stocks using LSTM and XGBoost on 5 years of historical data.
 
 # 
 
